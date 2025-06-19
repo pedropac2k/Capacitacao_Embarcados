@@ -9,8 +9,6 @@ const int ledVermelho1 = 9;
 const int ledVermelho2 = 8;
 const int buzzer = 3;
 
-#include <stdio.h>
-
 void setup() {
   //Configura quais PINs são de entrada ou saída.
   pinMode(TRIGGER_PIN, OUTPUT);
